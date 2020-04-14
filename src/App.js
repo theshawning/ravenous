@@ -1,11 +1,15 @@
 import React from 'react';
 import './App.css';
-import Business from './components/business/business';
+
+import BusinessList from './components/business-list/business-list.component';
+import SearchBar from './components/search-bar/search-bar.component';
 
 function App() {
   return (
     <div className="App">
-      <Business />
+      <h1>ravenous</h1>
+      <SearchBar />
+      <BusinessList />
     </div>
   );
 }
